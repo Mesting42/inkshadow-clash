@@ -1,0 +1,27 @@
+<!doctype html>
+<!-- 方向：都市剪影动作片。角色与场景占据舞台，菜单退居左侧。
+     色彩：夕照铜橙、骨白字、朱红披风；不同章节拥有独立建筑构图。
+     动作：固定步进骨骼姿态、短促冲击、有限残影。触控服从战斗可读性。
+     交互：开始、训练、竞技场均直接进入真实模式，暂停保护战斗状态。
+     边界：本地单人游戏，所有内容及音频无需外部服务。 -->
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+  <meta name="theme-color" content="#171c24" />
+  <meta name="description" content="墨影激斗：原创都市剪影横版动作游戏。拳脚连招，武器拾取，六关战役与竞技场。" />
+  <title>墨影激斗 · INKSHADOW</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <main id="app" aria-label="墨影激斗游戏">
+    <canvas id="stage" aria-label="游戏画面"></canvas>
+    <div id="hud"></div>
+    <div id="overlay"></div>
+    <div id="touch"></div>
+    <div id="notice" role="status" aria-live="polite"></div>
+    <div id="portrait"><strong>转动屏幕，准备出招</strong><p>横屏游玩可获得完整视野<br>战斗已自动暂停</p></div>
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

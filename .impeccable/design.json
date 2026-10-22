@@ -1,0 +1,657 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-22T23:13:33.910Z",
+  "title": "Design System: 墨影激斗",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "骨白纸色",
+        "tonalRamp": [
+          "oklch(15% 0.0271 85.67)",
+          "oklch(26.43% 0.0271 85.67)",
+          "oklch(37.86% 0.0271 85.67)",
+          "oklch(49.29% 0.0271 85.67)",
+          "oklch(60.71% 0.0271 85.67)",
+          "oklch(72.14% 0.0271 85.67)",
+          "oklch(83.57% 0.0271 85.67)",
+          "oklch(95% 0.0271 85.67)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "灰绿次字",
+        "tonalRamp": [
+          "oklch(15% 0.0052 164.97)",
+          "oklch(26.43% 0.0052 164.97)",
+          "oklch(37.86% 0.0052 164.97)",
+          "oklch(49.29% 0.0052 164.97)",
+          "oklch(60.71% 0.0052 164.97)",
+          "oklch(72.14% 0.0052 164.97)",
+          "oklch(83.57% 0.0052 164.97)",
+          "oklch(95% 0.0052 164.97)"
+        ]
+      },
+      "red": {
+        "role": "primary",
+        "displayName": "暖陶朱红",
+        "tonalRamp": [
+          "oklch(15% 0.1430 33.00)",
+          "oklch(26.43% 0.1430 33.00)",
+          "oklch(37.86% 0.1430 33.00)",
+          "oklch(49.29% 0.1430 33.00)",
+          "oklch(60.71% 0.1430 33.00)",
+          "oklch(72.14% 0.1430 33.00)",
+          "oklch(83.57% 0.1430 33.00)",
+          "oklch(95% 0.1430 33.00)"
+        ]
+      },
+      "panel-token": {
+        "role": "neutral",
+        "displayName": "根面板变量",
+        "tonalRamp": [
+          "oklch(15% 0.0280 242.66)",
+          "oklch(26.43% 0.0280 242.66)",
+          "oklch(37.86% 0.0280 242.66)",
+          "oklch(49.29% 0.0280 242.66)",
+          "oklch(60.71% 0.0280 242.66)",
+          "oklch(72.14% 0.0280 242.66)",
+          "oklch(83.57% 0.0280 242.66)",
+          "oklch(95% 0.0280 242.66)"
+        ]
+      },
+      "page": {
+        "role": "neutral",
+        "displayName": "夜蓝底",
+        "tonalRamp": [
+          "oklch(15% 0.0262 251.40)",
+          "oklch(26.43% 0.0262 251.40)",
+          "oklch(37.86% 0.0262 251.40)",
+          "oklch(49.29% 0.0262 251.40)",
+          "oklch(60.71% 0.0262 251.40)",
+          "oklch(72.14% 0.0262 251.40)",
+          "oklch(83.57% 0.0262 251.40)",
+          "oklch(95% 0.0262 251.40)"
+        ]
+      },
+      "stage-border": {
+        "role": "neutral",
+        "displayName": "舞台留边",
+        "tonalRamp": [
+          "oklch(15% 0.0301 245.31)",
+          "oklch(26.43% 0.0301 245.31)",
+          "oklch(37.86% 0.0301 245.31)",
+          "oklch(49.29% 0.0301 245.31)",
+          "oklch(60.71% 0.0301 245.31)",
+          "oklch(72.14% 0.0301 245.31)",
+          "oklch(83.57% 0.0301 245.31)",
+          "oklch(95% 0.0301 245.31)"
+        ]
+      },
+      "panel-surface": {
+        "role": "neutral",
+        "displayName": "蓝灰面板",
+        "tonalRamp": [
+          "oklch(15% 0.0295 239.17)",
+          "oklch(26.43% 0.0295 239.17)",
+          "oklch(37.86% 0.0295 239.17)",
+          "oklch(49.29% 0.0295 239.17)",
+          "oklch(60.71% 0.0295 239.17)",
+          "oklch(72.14% 0.0295 239.17)",
+          "oklch(83.57% 0.0295 239.17)",
+          "oklch(95% 0.0295 239.17)"
+        ]
+      },
+      "overlay": {
+        "role": "neutral",
+        "displayName": "半透明遮罩",
+        "tonalRamp": [
+          "oklch(15% 0.0333 251.27)",
+          "oklch(26.43% 0.0333 251.27)",
+          "oklch(37.86% 0.0333 251.27)",
+          "oklch(49.29% 0.0333 251.27)",
+          "oklch(60.71% 0.0333 251.27)",
+          "oklch(72.14% 0.0333 251.27)",
+          "oklch(83.57% 0.0333 251.27)",
+          "oklch(95% 0.0333 251.27)"
+        ]
+      },
+      "button": {
+        "role": "neutral",
+        "displayName": "石蓝按钮",
+        "tonalRamp": [
+          "oklch(15% 0.0277 234.29)",
+          "oklch(26.43% 0.0277 234.29)",
+          "oklch(37.86% 0.0277 234.29)",
+          "oklch(49.29% 0.0277 234.29)",
+          "oklch(60.71% 0.0277 234.29)",
+          "oklch(72.14% 0.0277 234.29)",
+          "oklch(83.57% 0.0277 234.29)",
+          "oklch(95% 0.0277 234.29)"
+        ]
+      },
+      "button-hover": {
+        "role": "neutral",
+        "displayName": "石蓝悬停",
+        "tonalRamp": [
+          "oklch(15% 0.0306 236.08)",
+          "oklch(26.43% 0.0306 236.08)",
+          "oklch(37.86% 0.0306 236.08)",
+          "oklch(49.29% 0.0306 236.08)",
+          "oklch(60.71% 0.0306 236.08)",
+          "oklch(72.14% 0.0306 236.08)",
+          "oklch(83.57% 0.0306 236.08)",
+          "oklch(95% 0.0306 236.08)"
+        ]
+      },
+      "button-text": {
+        "role": "neutral",
+        "displayName": "按钮骨白",
+        "tonalRamp": [
+          "oklch(15% 0.0289 84.59)",
+          "oklch(26.43% 0.0289 84.59)",
+          "oklch(37.86% 0.0289 84.59)",
+          "oklch(49.29% 0.0289 84.59)",
+          "oklch(60.71% 0.0289 84.59)",
+          "oklch(72.14% 0.0289 84.59)",
+          "oklch(83.57% 0.0289 84.59)",
+          "oklch(95% 0.0289 84.59)"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "夕照铜橙",
+        "tonalRamp": [
+          "oklch(15% 0.0956 51.05)",
+          "oklch(26.43% 0.0956 51.05)",
+          "oklch(37.86% 0.0956 51.05)",
+          "oklch(49.29% 0.0956 51.05)",
+          "oklch(60.71% 0.0956 51.05)",
+          "oklch(72.14% 0.0956 51.05)",
+          "oklch(83.57% 0.0956 51.05)",
+          "oklch(95% 0.0956 51.05)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "铜橙悬停",
+        "tonalRamp": [
+          "oklch(15% 0.0874 53.08)",
+          "oklch(26.43% 0.0874 53.08)",
+          "oklch(37.86% 0.0874 53.08)",
+          "oklch(49.29% 0.0874 53.08)",
+          "oklch(60.71% 0.0874 53.08)",
+          "oklch(72.14% 0.0874 53.08)",
+          "oklch(83.57% 0.0874 53.08)",
+          "oklch(95% 0.0874 53.08)"
+        ]
+      },
+      "primary-ink": {
+        "role": "neutral",
+        "displayName": "主操作深字",
+        "tonalRamp": [
+          "oklch(15% 0.0333 247.48)",
+          "oklch(26.43% 0.0333 247.48)",
+          "oklch(37.86% 0.0333 247.48)",
+          "oklch(49.29% 0.0333 247.48)",
+          "oklch(60.71% 0.0333 247.48)",
+          "oklch(72.14% 0.0333 247.48)",
+          "oklch(83.57% 0.0333 247.48)",
+          "oklch(95% 0.0333 247.48)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "暖色焦点",
+        "tonalRamp": [
+          "oklch(15% 0.0839 76.92)",
+          "oklch(26.43% 0.0839 76.92)",
+          "oklch(37.86% 0.0839 76.92)",
+          "oklch(49.29% 0.0839 76.92)",
+          "oklch(60.71% 0.0839 76.92)",
+          "oklch(72.14% 0.0839 76.92)",
+          "oklch(83.57% 0.0839 76.92)",
+          "oklch(95% 0.0839 76.92)"
+        ]
+      },
+      "reward-surface": {
+        "role": "neutral",
+        "displayName": "奖赏蓝灰",
+        "tonalRamp": [
+          "oklch(15% 0.0290 233.02)",
+          "oklch(26.43% 0.0290 233.02)",
+          "oklch(37.86% 0.0290 233.02)",
+          "oklch(49.29% 0.0290 233.02)",
+          "oklch(60.71% 0.0290 233.02)",
+          "oklch(72.14% 0.0290 233.02)",
+          "oklch(83.57% 0.0290 233.02)",
+          "oklch(95% 0.0290 233.02)"
+        ]
+      },
+      "reward-hover": {
+        "role": "neutral",
+        "displayName": "奖赏悬停",
+        "tonalRamp": [
+          "oklch(15% 0.0320 231.36)",
+          "oklch(26.43% 0.0320 231.36)",
+          "oklch(37.86% 0.0320 231.36)",
+          "oklch(49.29% 0.0320 231.36)",
+          "oklch(60.71% 0.0320 231.36)",
+          "oklch(72.14% 0.0320 231.36)",
+          "oklch(83.57% 0.0320 231.36)",
+          "oklch(95% 0.0320 231.36)"
+        ]
+      },
+      "training-surface": {
+        "role": "neutral",
+        "displayName": "训练工具底",
+        "tonalRamp": [
+          "oklch(15% 0.0383 242.47)",
+          "oklch(26.43% 0.0383 242.47)",
+          "oklch(37.86% 0.0383 242.47)",
+          "oklch(49.29% 0.0383 242.47)",
+          "oklch(60.71% 0.0383 242.47)",
+          "oklch(72.14% 0.0383 242.47)",
+          "oklch(83.57% 0.0383 242.47)",
+          "oklch(95% 0.0383 242.47)"
+        ]
+      },
+      "training-button": {
+        "role": "neutral",
+        "displayName": "训练选项",
+        "tonalRamp": [
+          "oklch(15% 0.0379 234.64)",
+          "oklch(26.43% 0.0379 234.64)",
+          "oklch(37.86% 0.0379 234.64)",
+          "oklch(49.29% 0.0379 234.64)",
+          "oklch(60.71% 0.0379 234.64)",
+          "oklch(72.14% 0.0379 234.64)",
+          "oklch(83.57% 0.0379 234.64)",
+          "oklch(95% 0.0379 234.64)"
+        ]
+      },
+      "training-selected": {
+        "role": "neutral",
+        "displayName": "已选训练项",
+        "tonalRamp": [
+          "oklch(15% 0.0682 64.06)",
+          "oklch(26.43% 0.0682 64.06)",
+          "oklch(37.86% 0.0682 64.06)",
+          "oklch(49.29% 0.0682 64.06)",
+          "oklch(60.71% 0.0682 64.06)",
+          "oklch(72.14% 0.0682 64.06)",
+          "oklch(83.57% 0.0682 64.06)",
+          "oklch(95% 0.0682 64.06)"
+        ]
+      },
+      "health": {
+        "role": "secondary",
+        "displayName": "暖铜生命",
+        "tonalRamp": [
+          "oklch(15% 0.0836 51.08)",
+          "oklch(26.43% 0.0836 51.08)",
+          "oklch(37.86% 0.0836 51.08)",
+          "oklch(49.29% 0.0836 51.08)",
+          "oklch(60.71% 0.0836 51.08)",
+          "oklch(72.14% 0.0836 51.08)",
+          "oklch(83.57% 0.0836 51.08)",
+          "oklch(95% 0.0836 51.08)"
+        ]
+      },
+      "energy": {
+        "role": "secondary",
+        "displayName": "浅青能量",
+        "tonalRamp": [
+          "oklch(15% 0.0411 186.57)",
+          "oklch(26.43% 0.0411 186.57)",
+          "oklch(37.86% 0.0411 186.57)",
+          "oklch(49.29% 0.0411 186.57)",
+          "oklch(60.71% 0.0411 186.57)",
+          "oklch(72.14% 0.0411 186.57)",
+          "oklch(83.57% 0.0411 186.57)",
+          "oklch(95% 0.0411 186.57)"
+        ]
+      },
+      "face": {
+        "role": "neutral",
+        "displayName": "浅色脸",
+        "tonalRamp": [
+          "oklch(15% 0.0232 93.34)",
+          "oklch(26.43% 0.0232 93.34)",
+          "oklch(37.86% 0.0232 93.34)",
+          "oklch(49.29% 0.0232 93.34)",
+          "oklch(60.71% 0.0232 93.34)",
+          "oklch(72.14% 0.0232 93.34)",
+          "oklch(83.57% 0.0232 93.34)",
+          "oklch(95% 0.0232 93.34)"
+        ]
+      },
+      "body": {
+        "role": "neutral",
+        "displayName": "墨黑身体",
+        "tonalRamp": [
+          "oklch(15% 0.0120 214.57)",
+          "oklch(26.43% 0.0120 214.57)",
+          "oklch(37.86% 0.0120 214.57)",
+          "oklch(49.29% 0.0120 214.57)",
+          "oklch(60.71% 0.0120 214.57)",
+          "oklch(72.14% 0.0120 214.57)",
+          "oklch(83.57% 0.0120 214.57)",
+          "oklch(95% 0.0120 214.57)"
+        ]
+      },
+      "cape": {
+        "role": "primary",
+        "displayName": "披风暗部",
+        "tonalRamp": [
+          "oklch(15% 0.1557 27.43)",
+          "oklch(26.43% 0.1557 27.43)",
+          "oklch(37.86% 0.1557 27.43)",
+          "oklch(49.29% 0.1557 27.43)",
+          "oklch(60.71% 0.1557 27.43)",
+          "oklch(72.14% 0.1557 27.43)",
+          "oklch(83.57% 0.1557 27.43)",
+          "oklch(95% 0.1557 27.43)"
+        ]
+      },
+      "cape-light": {
+        "role": "primary",
+        "displayName": "披风亮部",
+        "tonalRamp": [
+          "oklch(15% 0.1692 30.70)",
+          "oklch(26.43% 0.1692 30.70)",
+          "oklch(37.86% 0.1692 30.70)",
+          "oklch(49.29% 0.1692 30.70)",
+          "oklch(60.71% 0.1692 30.70)",
+          "oklch(72.14% 0.1692 30.70)",
+          "oklch(83.57% 0.1692 30.70)",
+          "oklch(95% 0.1692 30.70)"
+        ]
+      },
+      "palm": {
+        "role": "secondary",
+        "displayName": "浅玉掌印",
+        "tonalRamp": [
+          "oklch(15% 0.0546 166.20)",
+          "oklch(26.43% 0.0546 166.20)",
+          "oklch(37.86% 0.0546 166.20)",
+          "oklch(49.29% 0.0546 166.20)",
+          "oklch(60.71% 0.0546 166.20)",
+          "oklch(72.14% 0.0546 166.20)",
+          "oklch(83.57% 0.0546 166.20)",
+          "oklch(95% 0.0546 166.20)"
+        ]
+      },
+      "shadow": {
+        "role": "secondary",
+        "displayName": "雾蓝疾影",
+        "tonalRamp": [
+          "oklch(15% 0.0643 266.29)",
+          "oklch(26.43% 0.0643 266.29)",
+          "oklch(37.86% 0.0643 266.29)",
+          "oklch(49.29% 0.0643 266.29)",
+          "oklch(60.71% 0.0643 266.29)",
+          "oklch(72.14% 0.0643 266.29)",
+          "oklch(83.57% 0.0643 266.29)",
+          "oklch(95% 0.0643 266.29)"
+        ]
+      },
+      "quake": {
+        "role": "secondary",
+        "displayName": "砂金震波",
+        "tonalRamp": [
+          "oklch(15% 0.0852 71.43)",
+          "oklch(26.43% 0.0852 71.43)",
+          "oklch(37.86% 0.0852 71.43)",
+          "oklch(49.29% 0.0852 71.43)",
+          "oklch(60.71% 0.0852 71.43)",
+          "oklch(72.14% 0.0852 71.43)",
+          "oklch(83.57% 0.0852 71.43)",
+          "oklch(95% 0.0852 71.43)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "书写主标题",
+        "purpose": "主菜单双行游戏名。"
+      },
+      "headline": {
+        "displayName": "弹层标题",
+        "purpose": "暂停、设置、说明、奖励等界面。"
+      },
+      "body": {
+        "displayName": "说明文字",
+        "purpose": "常用12px说明角色，非根节点字号。"
+      },
+      "label": {
+        "displayName": "紧凑标签",
+        "purpose": "HUD与训练工具次级读数。"
+      },
+      "button": {
+        "displayName": "标准按钮",
+        "purpose": "标准操作按钮；菜单主按钮另有放大。"
+      },
+      "combo": {
+        "displayName": "连击数字",
+        "purpose": "Georgia 大号连击数。"
+      }
+    },
+    "shadows": [
+      {
+        "name": "panel",
+        "value": "0 18px 70px #07121e88",
+        "purpose": "居中弹层。"
+      },
+      {
+        "name": "joystick-thumb",
+        "value": "0 4px 12px #0d1d2b55",
+        "purpose": "摇杆帽。"
+      },
+      {
+        "name": "game-title",
+        "value": "0 5px 20px #0e192b30",
+        "purpose": "主标题文字。"
+      },
+      {
+        "name": "objective",
+        "value": "0 2px 8px #112333",
+        "purpose": "关卡目标文字。"
+      },
+      {
+        "name": "combo",
+        "value": "0 2px 15px #1b2839",
+        "purpose": "连击文字。"
+      }
+    ],
+    "motion": [
+      {
+        "name": "button",
+        "value": "background .15s, transform .15s",
+        "purpose": "普通按钮右移2px；奖励卡上移4px。"
+      },
+      {
+        "name": "notice",
+        "value": "opacity .18s, transform .18s",
+        "purpose": "通知进入与退出。"
+      },
+      {
+        "name": "joystick-return",
+        "value": "transform .12s ease-out",
+        "purpose": "摇杆帽松手回中；engaged取消过渡。"
+      },
+      {
+        "name": "palm-vfx",
+        "value": ".44s",
+        "purpose": "冲击掌轮廓展开与淡出。"
+      },
+      {
+        "name": "shadow-vfx",
+        "value": ".48s",
+        "purpose": "影步疾影与方向残像。"
+      },
+      {
+        "name": "quake-vfx",
+        "value": ".72s",
+        "purpose": "地面震波与裂纹淡出。"
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "源码只关闭 CSS transition，Canvas仍按游戏设置运行。"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "short",
+        "value": "(max-height:650px)"
+      },
+      {
+        "name": "narrow",
+        "value": "(max-width:760px)"
+      },
+      {
+        "name": "very-short",
+        "value": "(max-height:500px)"
+      },
+      {
+        "name": "touch",
+        "value": "(pointer:coarse)"
+      },
+      {
+        "name": "mouse",
+        "value": "(pointer:fine)"
+      },
+      {
+        "name": "touch-portrait",
+        "value": "(pointer:coarse) and (orientation:portrait)"
+      },
+      {
+        "name": "explicit-touch-portrait",
+        "value": "(orientation:portrait)"
+      }
+    ],
+    "previewNotes": [
+      "所有色条均由源码颜色计算为8阶OKLCH预览；不属于游戏已有规范，不用于改写源码。",
+      "有透明度的颜色，其色条只展示原始RGB色相，不将透明度混合结果伪装成源码token。",
+      "组件片段是视觉预览，状态类对应源码状态；不连接真实战斗、冷却和摇杆输入。",
+      "组件预览使用静态文案和数据示意，真实强化与技能由src/data.ts决定。"
+    ],
+    "sources": [
+      "src/style.css",
+      "src/renderer.ts",
+      "src/icons.ts",
+      "src/ui.ts",
+      "src/data.ts",
+      "src/skill-vfx.ts"
+    ]
+  },
+  "components": [
+    {
+      "name": "铜橙主按钮",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "继续战斗等主操作；标准按钮尺寸，主菜单另有放大尺寸。",
+      "html": "<div class=\"ds-root\"><button class=\"ds-button ds-primary\">继续战斗<svg width=\"23\" height=\"23\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\"/></svg></button></div>",
+      "css": ".ds-root{font-family:\"Microsoft YaHei\",\"PingFang SC\",sans-serif;color:#eee5d2}.ds-root button,.ds-root input{font:inherit}.ds-root button{cursor:pointer;color:inherit;touch-action:manipulation}.ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:40px;min-height:47px;padding:12px 20px;background:#33444e;color:#e8deca!important;border:0;border-radius:3px;font-size:14px!important;transition:background .15s,transform .15s;text-align:left}.ds-button:hover{background:#455864;transform:translateX(2px)}.ds-primary{background:#e7a47d;color:#182735!important;font-weight:700!important}.ds-primary:hover{background:#f4b791}.ds-root button:focus-visible,.ds-root input:focus-visible{outline:2px solid #f0ca92;outline-offset:5px}.ds-root button:disabled{opacity:.43;cursor:default}@media(prefers-reduced-motion:reduce){.ds-root *{transition:none!important}}"
+    },
+    {
+      "name": "蓝灰次按钮",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "装备、说明等普通操作；保留悬停位移与键盘焦点。",
+      "html": "<div class=\"ds-root\"><button class=\"ds-button\">装备与构筑<svg width=\"23\" height=\"23\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\"/></svg></button></div>",
+      "css": ".ds-root{font-family:\"Microsoft YaHei\",\"PingFang SC\",sans-serif;color:#eee5d2}.ds-root button,.ds-root input{font:inherit}.ds-root button{cursor:pointer;color:inherit;touch-action:manipulation}.ds-button{display:inline-flex;align-items:center;justify-content:space-between;gap:40px;min-height:47px;padding:12px 20px;background:#33444e;color:#e8deca!important;border:0;border-radius:3px;font-size:14px!important;transition:background .15s,transform .15s;text-align:left}.ds-button:hover{background:#455864;transform:translateX(2px)}.ds-root button:focus-visible,.ds-root input:focus-visible{outline:2px solid #f0ca92;outline-offset:5px}.ds-root button:disabled{opacity:.43;cursor:default}@media(prefers-reduced-motion:reduce){.ds-root *{transition:none!important}}"
+    },
+    {
+      "name": "主菜单文字导航",
+      "kind": "nav",
+      "description": "章节、设置、操作说明的透明文字入口。",
+      "html": "<div class=\"ds-root\"><nav class=\"ds-nav\" aria-label=\"主菜单辅助入口\"><button>章节选择</button><button>设置</button><button>操作说明</button></nav></div>",
+      "css": ".ds-root{font-family:\"Microsoft YaHei\",\"PingFang SC\",sans-serif;color:#eee5d2}.ds-root button,.ds-root input{font:inherit}.ds-root button{cursor:pointer;color:inherit;touch-action:manipulation}.ds-nav{display:flex;gap:19px;flex-wrap:wrap;margin-top:21px}.ds-nav button{font-size:12px;background:none;color:#c5c4b9;padding:0;border:0}.ds-nav button:hover{color:#f0c59a}.ds-root button:focus-visible,.ds-root input:focus-visible{outline:2px solid #f0ca92;outline-offset:5px}.ds-root button:disabled{opacity:.43;cursor:default}@media(prefers-reduced-motion:reduce){.ds-root *{transition:none!important}}"
+    },
+    {
+      "name": "暂停面板",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "深蓝灰浮层、书写标题与印记；内容按原样抽取。",
+      "html": "<div class=\"ds-root\"><section class=\"ds-panel\"><header class=\"ds-heading\"><div><h1>暂歇片刻</h1><p>调整呼吸，下一击仍由你掌握。</p></div><span class=\"ds-seal\">墨</span></header><p>所有动作、机关与计时均已暂停。</p></section></div>",
+      "css": ".ds-root{font-family:\"Microsoft YaHei\",\"PingFang SC\",sans-serif;color:#eee5d2}.ds-root button,.ds-root input{font:inherit}.ds-root button{cursor:pointer;color:inherit;touch-action:manipulation}.ds-panel{width:min(580px,100%);background:#1c2c37;border-radius:12px;box-shadow:0 18px 70px #07121e88;padding:30px 36px}.ds-heading{display:flex;justify-content:space-between;align-items:start;gap:25px;margin-bottom:25px}.ds-heading h1{font-family:InkDisplay,\"SimSun\",serif;font-size:34px;line-height:1.3;letter-spacing:.03em;margin:0}.ds-heading p,.ds-panel>p{font-size:12px;color:#b8c0bf;margin:10px 0 0;line-height:1.75}.ds-seal{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:35px;height:40px;border:1px solid #dc9b78;color:#e1a07e;font-family:InkDisplay,serif;font-size:24px;transform:rotate(-4deg)}.ds-root button:focus-visible,.ds-root input:focus-visible{outline:2px solid #f0ca92;outline-offset:5px}.ds-root button:disabled{opacity:.43;cursor:default}@media(prefers-reduced-motion:reduce){.ds-root *{transition:none!important}}"
+    },
+    {
+      "name": "强化奖励卡",
+      "kind": "card",
+      "refersTo": "reward-card",
+      "description": "现有强化“流影步”的选择卡；层数、文案、颜色和轮廓均来自src/data.ts。",
+      "html": "<div class=\"ds-root\"><button class=\"ds-reward\"><div class=\"ds-art\"><svg width=\"104\" height=\"104\" viewBox=\"0 0 72 72\" aria-hidden=\"true\"><ellipse cx=\"36\" cy=\"61\" rx=\"23\" ry=\"5\" fill=\"#0c182b55\"/><path fill=\"#91c6d1\" d=\"M5 44l31-15L63 5 44 37l20-5-37 33 9-24z\"/></svg></div><span class=\"ds-stack\">1 / 1 层</span><h2>流影步</h2><p>闪避成功穿过敌人攻击后获得 3 秒攻击加成 20%。</p><span class=\"ds-choose\">选取强化 <svg width=\"23\" height=\"23\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\"/></svg></span></button></div>",
+      "css": ".ds-root{font-family:\"Microsoft YaHei\",\"PingFang SC\",sans-serif;color:#eee5d2}.ds-root button,.ds-root input{font:inherit}.ds-root button{cursor:pointer;color:inherit;touch-action:manipulation}.ds-reward{text-align:left;background:#2a3c46;border:0;border-radius:12px;padding:0 23px 20px;overflow:hidden;position:relative;min-height:310px;width:270px;transition:background .15s,transform .15s}.ds-reward:hover{background:#374c57;transform:translateY(-4px)}.ds-art{height:140px;margin:0 -23px 15px;display:flex;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 90%,color-mix(in srgb,#91c6d1 20%,transparent),transparent 70%)}.ds-stack{font-size:10px;color:#b9c3c0}.ds-reward h2{font-size:20px;color:#91c6d1;margin:8px 0 0}.ds-reward p{font-size:12px;color:#cbd1cb;margin:13px 0 22px;min-height:64px;line-height:1.8}.ds-choose{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#eed6b6}.ds-root button:focus-visible,.ds-root input:focus-visible{outline:2px solid #f0ca92;outline-offset:5px}.ds-root button:disabled{opacity:.43;cursor:default}@media(prefers-reduced-motion:reduce){.ds-root *{transition:none!important}}"
+    },
+    {
+      "name": "设置滑杆",
+      "kind": "input",
+      "description": "原生范围控件；原项目未实现文本输入框。",
+      "html": "<div class=\"ds-root\"><label class=\"ds-setting\"><strong>触控按钮透明度</strong><input aria-label=\"触控按钮透明度\" type=\"range\" min=\"0.2\" max=\"1\" step=\"0.05\" value=\"0.7\"><output>70%</output></label></div>",
+      "css": ".ds-root{font-family:\"Microsoft YaHei\",\"PingFang SC\",sans-serif;color:#eee5d2}.ds-root button,.ds-root input{font:inherit}.ds-root button{cursor:pointer;color:inherit;touch-action:manipulation}.ds-setting{display:grid;grid-template-columns:1fr 120px 44px;align-items:center;gap:14px;padding:13px 0;border-bottom:1px solid #52616b55;max-width:420px}.ds-setting strong{font-size:12px;font-weight:500}.ds-setting output{font-size:11px;font-variant-numeric:tabular-nums;text-align:right;color:#e2bf94}.ds-setting input{width:100%;accent-color:#e5ae84;cursor:pointer;height:5px}.ds-root button:focus-visible,.ds-root input:focus-visible{outline:2px solid #f0ca92;outline-offset:5px}.ds-root button:disabled{opacity:.43;cursor:default}@media(prefers-reduced-motion:reduce){.ds-root *{transition:none!important}}"
+    },
+    {
+      "name": "训练技能选择",
+      "kind": "chip",
+      "refersTo": "training-selector",
+      "description": "按钮所选态与18px技能徽记；不假装是未实现的标签页。",
+      "html": "<div class=\"ds-root\"><div class=\"ds-training\"><button class=\"ds-selected\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 72 72\" aria-hidden=\"true\"><ellipse cx=\"36\" cy=\"61\" rx=\"23\" ry=\"5\" fill=\"#0c182b55\"/><path fill=\"#addac6\" d=\"M13 48V25l6-2 6 12V14l7-1 3 20V8h7l1 26 4-19 7 3-5 22 6-9 7 4-8 20-13 11H26z\"/></svg> 冲击掌</button><button><svg width=\"18\" height=\"18\" viewBox=\"0 0 72 72\" aria-hidden=\"true\"><ellipse cx=\"36\" cy=\"61\" rx=\"23\" ry=\"5\" fill=\"#0c182b55\"/><path fill=\"#b1c4ef\" d=\"M5 44l31-15L63 5 44 37l20-5-37 33 9-24z\"/></svg> 影步突袭</button><button><svg width=\"18\" height=\"18\" viewBox=\"0 0 72 72\" aria-hidden=\"true\"><ellipse cx=\"36\" cy=\"61\" rx=\"23\" ry=\"5\" fill=\"#0c182b55\"/><path fill=\"#ecc08b\" d=\"M28 8h16l5 24-13 11-13-11zM7 49l22-9-5 9 12-4 12 4-5-9 22 9 5 15-22-8-12 11-12-11-22 8z\"/></svg> 震地爆发</button></div></div>",
+      "css": ".ds-root{font-family:\"Microsoft YaHei\",\"PingFang SC\",sans-serif;color:#eee5d2}.ds-root button,.ds-root input{font:inherit}.ds-root button{cursor:pointer;color:inherit;touch-action:manipulation}.ds-training{display:flex;gap:4px;align-items:center;padding:10px;background:#142837e8;border-radius:8px}.ds-training button{display:flex;gap:4px;align-items:center;background:#314957;border:0;border-radius:3px;padding:7px 10px;font-size:10px}.ds-training .ds-selected{background:#bd9672;color:#172d3b}.ds-root button:focus-visible,.ds-root input:focus-visible{outline:2px solid #f0ca92;outline-offset:5px}.ds-root button:disabled{opacity:.43;cursor:default}@media(prefers-reduced-motion:reduce){.ds-root *{transition:none!important}}"
+    },
+    {
+      "name": "模拟摇杆",
+      "kind": "custom",
+      "refersTo": "joystick",
+      "description": "默认态与源码engaged态；实际拖动由游戏输入模块驱动，此预览只展示形态。",
+      "html": "<div class=\"ds-root\"><div class=\"ds-stick\"><svg viewBox=\"0 0 132 132\" aria-hidden=\"true\"><path d=\"M60 19l6-6 6 6M60 113l6 6 6-6M19 60l-6 6 6 6M113 60l6 6-6 6\"/></svg><div class=\"ds-thumb\"><span></span></div></div><span class=\"ds-label\">移动 / 方向</span></div>",
+      "css": ".ds-root{font-family:\"Microsoft YaHei\",\"PingFang SC\",sans-serif;color:#eee5d2}.ds-root button,.ds-root input{font:inherit}.ds-root button{cursor:pointer;color:inherit;touch-action:manipulation}.ds-stick{width:132px;height:132px;position:relative;border:1px solid #d4d8ca88;border-radius:50%;background:#17313e80;touch-action:none;opacity:.7}.ds-stick::before{content:\"\";position:absolute;inset:18px;border:1px solid #d4d8ca20;border-radius:50%}.ds-stick svg{position:absolute;inset:0;width:100%;height:100%;fill:none;stroke:#dcdcc8;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.ds-thumb{position:absolute;left:40px;top:40px;width:52px;height:52px;border:1px solid #c7d1cbcc;background:#45606bd9;border-radius:50%;display:flex;align-items:center;justify-content:center;pointer-events:none;box-shadow:0 4px 12px #0d1d2b55;transition:transform .12s ease-out}.ds-thumb span{display:block;width:22px;height:22px;border:1px solid #b2c2bb77;border-radius:50%}.ds-stick.ds-engaged{opacity:1;border-color:#eac899}.ds-stick.ds-engaged .ds-thumb{transition:none;background:#c09a76;border-color:#f1d8af}.ds-label{font-size:9px;display:block;width:132px;text-align:center;color:#d2d4c5;margin-top:8px}.ds-root button:focus-visible,.ds-root input:focus-visible{outline:2px solid #f0ca92;outline-offset:5px}.ds-root button:disabled{opacity:.43;cursor:default}@media(prefers-reduced-motion:reduce){.ds-root *{transition:none!important}}"
+    },
+    {
+      "name": "触屏主动技能",
+      "kind": "button",
+      "refersTo": "touch-skill",
+      "description": "并列展示就绪、冷却与能量不足；实际游戏每次只显示当前技能。",
+      "html": "<div class=\"ds-root\"><div class=\"ds-skills\"><button class=\"ds-skill\"><svg width=\"30\" height=\"30\" viewBox=\"0 0 72 72\" aria-hidden=\"true\"><ellipse cx=\"36\" cy=\"61\" rx=\"23\" ry=\"5\" fill=\"#0c182b55\"/><path fill=\"#addac6\" d=\"M13 48V25l6-2 6 12V14l7-1 3 20V8h7l1 26 4-19 7 3-5 22 6-9 7 4-8 20-13 11H26z\"/></svg><span class=\"ds-skill-name\">冲击掌</span><span class=\"ds-cost\">24</span></button><button class=\"ds-skill ds-cooling\"><svg width=\"30\" height=\"30\" viewBox=\"0 0 72 72\" aria-hidden=\"true\"><ellipse cx=\"36\" cy=\"61\" rx=\"23\" ry=\"5\" fill=\"#0c182b55\"/><path fill=\"#93a5a5\" d=\"M5 44l31-15L63 5 44 37l20-5-37 33 9-24z\"/></svg><span class=\"ds-skill-name\">影步突袭</span><em class=\"ds-timer\">9</em></button><button class=\"ds-skill ds-low\"><svg width=\"30\" height=\"30\" viewBox=\"0 0 72 72\" aria-hidden=\"true\"><ellipse cx=\"36\" cy=\"61\" rx=\"23\" ry=\"5\" fill=\"#0c182b55\"/><path fill=\"#93a5a5\" d=\"M28 8h16l5 24-13 11-13-11zM7 49l22-9-5 9 12-4 12 4-5-9 22 9 5 15-22-8-12 11-12-11-22 8z\"/></svg><span class=\"ds-skill-name\">震地爆发</span><span class=\"ds-cost\">40</span></button></div></div>",
+      "css": ".ds-root{font-family:\"Microsoft YaHei\",\"PingFang SC\",sans-serif;color:#eee5d2}.ds-root button,.ds-root input{font:inherit}.ds-root button{cursor:pointer;color:inherit;touch-action:manipulation}.ds-skills{display:flex;gap:8px}.ds-skill{position:relative;width:62px;height:64px;border:1px solid #a8cabeaa;background:#244444db;border-radius:12px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:2px;overflow:hidden;color:#f1e2c5!important;opacity:.7}.ds-skill-name{font-size:9px;line-height:14px;white-space:nowrap}.ds-cost{position:absolute;right:4px;top:3px;color:#bcd8c7;font-size:8px}.ds-timer{position:absolute;inset:4px 0 17px;display:flex;align-items:center;justify-content:center;background:#18313ac9;font-style:normal;font-size:20px;font-variant-numeric:tabular-nums;color:#f4d2a0}.ds-cooling{border-color:#718989}.ds-low{filter:saturate(.3)}.ds-skill.ds-held{background:#cfab7e;color:#18333e!important;opacity:1}.ds-root button:focus-visible,.ds-root input:focus-visible{outline:2px solid #f0ca92;outline-offset:5px}.ds-root button:disabled{opacity:.43;cursor:default}@media(prefers-reduced-motion:reduce){.ds-root *{transition:none!important}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "都市剪影动作片",
+    "overview": "这是对已实现界面的交接记录。角色与城市占据画面，菜单及 HUD 为动作提供入口、读数与状态提示。深蓝灰底、骨白文字、铜橙主操作和朱红披风形成当前视觉关系；旧街、工厂和高塔由建筑形态、分层色调与环境运动区分。\n\n玩家采用用户最终确认的浅色椭圆大头、眉眼表情、圆润黑色肢体与红色披风，不使用头带。长杆与重锤由双手包握，指节覆盖握柄。手机和平板使用模拟摇杆；技能按钮的掌印、疾影与震波轮廓，与战斗中的 Canvas 特效来自同一份形状数据。",
+    "keyCharacteristics": [
+      "非像素的程序绘制角色、实心图标与城市剪影。",
+      "等比舞台、圆润肢体、清晰的武器握持与出招方向。",
+      "深色低干扰界面，铜橙主操作，颜色与形状共同提示技能和战斗状态。",
+      "触控集中于下方两侧，横屏保持完整动作视野。"
+    ],
+    "rules": [
+      {
+        "name": "The Shared Glyph Rule",
+        "body": "技能名称、颜色和轮廓取自已有技能数据与 `SKILL_GLYPHS`，UI 和战斗特效保持同源。",
+        "section": "colors"
+      },
+      {
+        "name": "The Proportion Rule",
+        "body": "等比缩放虚拟舞台并保留留边，不用非等比缩放补满屏幕。",
+        "section": "layout"
+      }
+    ],
+    "dos": [
+      "**Do** 保留浅色大头表情、黑色圆润肢体与红披风的用户确认造型。",
+      "**Do** 保留虚拟舞台比例、场景留边与角色骨骼比例。",
+      "**Do** 让技能按钮、装备徽记和战斗特效继续读取同源轮廓与技能颜色。",
+      "**Do** 保留长杆、重锤双手包握及手指遮挡武器的绘制顺序。",
+      "**Do** 按既有断点和触控设置核对实际布局，并同时检查冷却、能量不足、按住与选中状态。"
+    ],
+    "donts": [
+      "**Don't** 给玩家重新添加头带，或把红披风恢复为围巾。",
+      "**Don't** 把程序绘制的圆润人物改成像素角色，或非等比拉长舞台。",
+      "**Don't** 用通用技能文字或无关图标替换现有掌印、疾影、震波。",
+      "**Don't** 把 sidecar 自动生成的预览色阶作为新增游戏规范。",
+      "**Don't** 将本记录当作新的改版方案；后续修改以用户确认和实际源码为准。"
+    ]
+  }
+}
