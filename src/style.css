@@ -23,3 +23,10 @@
 .touch-aux{align-items:flex-end}#touch .touch-aux .touch-skill{position:relative;width:62px;height:64px;border-color:#a8cabeaa;background:#244444db;border-radius:12px;display:flex;flex-direction:column;gap:2px;overflow:hidden}.touch-skill .art-icon{width:30px;height:30px}.touch-skill-name{font-size:9px;line-height:14px;white-space:nowrap}.touch-skill-cost{position:absolute;right:4px;top:3px;color:#bcd8c7;font-size:8px}.touch-skill-timer{position:absolute;inset:4px 0 17px;display:flex;align-items:center;justify-content:center;background:#18313ac9;font-style:normal;font-size:20px;font-variant-numeric:tabular-nums;color:#f4d2a0}.touch-skill.on-cooldown{border-color:#718989!important}.touch-skill.energy-low{filter:saturate(.3)}#touch .touch-aux .touch-skill.held{background:#cfab7e;color:#18333e}
 .training-skills{display:flex;gap:4px;align-items:center}.training-skills button{display:flex;gap:4px;align-items:center}.training-skills .art-icon{width:18px;height:18px}
 #app[data-mode=training] .loadout{display:none}
+
+/* Embedded landscape phone frames have less height than standalone pages.
+   Reduce decorative title spacing so the footer cannot cover mode buttons. */
+@media(max-height:400px) and (orientation:landscape){
+ .main-menu{top:58px}.game-title{font-size:40px}
+ .tagline{font-size:10px;margin:7px 0 10px}.menu-small{margin-top:8px}
+}
