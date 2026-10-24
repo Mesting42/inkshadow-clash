@@ -103,3 +103,14 @@ node --expose-gc --import tsx scripts/simulate.ts --arena --endurance
 ## 资源与来源
 
 角色、场景、图标、特效、音频均由本项目代码生成。造型比例与表情参考用户在聊天中提供的图片，改为红色披风且无头带。未从参考网址复制代码或下载素材。第三方开发依赖与版本由 `package-lock.json` 固定。
+
+<!-- pixel-pier-game-listing:start -->
+## Game listing / 游戏展示
+
+- **Game developer / 游戏开发者:** Mest ([@Mesting42](https://github.com/Mesting42))
+- **Pixel Pier listing / 游戏展示页面:** [Inkshadow Clash](https://riverglint.link/games/inkshadow-clash/)
+
+This game is listed on Pixel Pier with a play entry and game guide. This link identifies a game-development and listing relationship; it does not identify the developer as the website operator or operating entity.
+
+本游戏在 Pixel Pier 展示，并提供游玩入口与游戏指南。此链接仅表示游戏开发与展示关联，不代表开发者是该网站的运营者或运营主体。
+<!-- pixel-pier-game-listing:end -->
